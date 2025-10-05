@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+<div class ="registration_container">
+    <h1>Student Registration</h1>
+    <form id ="student_registration_form" onsubmit="event.preventDefault();student_register();" >
+    <label for="student_id">Student ID </label>     
+    <input id="student_id" type="text" required>
+    <label for="student_name">Name</label>
+    <input id ="student_name" type="text" required>
+    <label for="student_section" >Section</label>
+    <input id="student_section" type="text" required>
+    <label for="student_password" >Password</label>
+    <input id="student_password" type="password" required>
+    <button id="registration_button" type="submit">Register</button>
+    </form>
+</div>
+<script src="app.js"></script> 
+</body>
+</html>
